@@ -9,10 +9,14 @@ const Counter = () => {
     <View style={styles.row}>
       <Text style={styles.label}>Count: {count}</Text>
       <View style={styles.btn}>
-        <Button title="-" onPress={() => setCount(count - 1)} />
+        <Button
+          color="#f194ff"
+          title="DECREMENT"
+          onPress={() => setCount(count - 1)}
+        />
       </View>
       <View style={styles.btn}>
-        <Button title="+" onPress={() => setCount(count + 1)} />
+        <Button title="INCREMENT" onPress={() => setCount(count + 1)} />
       </View>
     </View>
   );
@@ -31,9 +35,9 @@ const styles = StyleSheet.create({
     color: Colors.dark,
   },
   btn: {
-    width: 30,
-    marginLeft: 8,
-    marginRight: 8,
+    width: 100,
+    marginLeft: 12,
+    marginRight: 12,
     marginTop: 6,
     fontSize: 18,
     fontWeight: '400',
