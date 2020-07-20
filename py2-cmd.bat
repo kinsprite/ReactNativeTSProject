@@ -1,2 +1,0 @@
-@PATH=%PYTHON2_HOME%\Scripts\;%PYTHON_HOME%\;%PATH%
-@cmd /K
